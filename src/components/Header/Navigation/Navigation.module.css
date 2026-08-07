@@ -1,14 +1,7 @@
-.menuContaner {
-  display: flex;
-  justify-content: space-between;
-}
-ul {
+.navList {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
   gap: 1rem;
-}
-img {
-  width: 80px;
 }

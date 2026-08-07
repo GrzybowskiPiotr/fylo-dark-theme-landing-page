@@ -1,0 +1,31 @@
+.featuresListContainer {
+  position: relative;
+  left: -2rem;
+  padding-top: 8.75rem;
+  width: 100vw;
+  background-color: var(--Navy900);
+}
+.features-list {
+  padding: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.li img {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+.li h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+.li p {
+  font-size: 0.875rem;
+}

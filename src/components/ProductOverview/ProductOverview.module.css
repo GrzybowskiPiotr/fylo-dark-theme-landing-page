@@ -1,5 +1,10 @@
 .container {
   margin-top: 3rem;
+  background-color: transparent;
+}
+.topCard {
+  position: relative;
+  z-index: 10;
 }
 .container img {
   width: 100%;
@@ -26,4 +31,24 @@
   border-radius: 2rem;
   font-weight: bold;
   text-transform: capitalize;
+}
+
+.topDecor {
+  position: absolute;
+  top: 270px;
+  left: -0.025rem;
+  width: 100vw;
+  z-index: 5;
+}
+
+.decorImg {
+  width: 100%;
+  height: 200px;
+}
+.topDecorBackground {
+  position: absolute;
+  bottom: -7.7rem;
+  width: 100%;
+  height: 12.3rem;
+  background-color: var(--Navy900);
 }
