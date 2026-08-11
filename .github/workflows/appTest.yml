@@ -1,6 +1,8 @@
 name: AppTest
 run-name: App_Test
-on: [push]
+on:
+  push:
+  pull_request:
 jobs:
   App_build:
     runs-on: ubuntu-latest
