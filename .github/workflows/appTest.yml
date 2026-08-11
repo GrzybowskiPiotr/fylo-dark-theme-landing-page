@@ -1,5 +1,5 @@
 name: AppTest
-run-name: App Test
+run-name: App_Test
 on: [push]
 jobs: 
     App build:
