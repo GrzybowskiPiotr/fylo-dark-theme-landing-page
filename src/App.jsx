@@ -5,15 +5,14 @@ import { ProductOverview } from "./components/ProductOverview/ProductOverview";
 import "./Style/appStyle.css";
 
 function App() {
-
   return (
     <>
-    <Header />
-    <ProductOverview />
-    <FeatureList />
-    <Cta/>
+      <Header />
+      <ProductOverview />
+      <FeatureList />
+      <Cta />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
