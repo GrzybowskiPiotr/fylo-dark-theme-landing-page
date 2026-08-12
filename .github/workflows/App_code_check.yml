@@ -1,5 +1,5 @@
-name: App_prep
-run-name: App_prep
+name: App_code_check
+run-name: App_code_check
 on:
   push:
   pull_request:
