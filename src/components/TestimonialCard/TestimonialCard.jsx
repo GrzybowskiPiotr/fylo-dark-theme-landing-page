@@ -1,6 +1,6 @@
-import style from "./TestemonialCard.module.css";
+import style from "./TestimonialCard.module.css";
 
-export function TestemonialCard({
+export function TestimonialCard({
   text,
   img,
   imgAlt,

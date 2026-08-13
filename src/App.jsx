@@ -2,7 +2,7 @@ import { Cta } from "./components/Cta/Cta";
 import { FeatureList } from "./components/FeatureList/FeatureList";
 import { Header } from "./components/Header/Header";
 import { ProductOverview } from "./components/ProductOverview/ProductOverview";
-import { Testemonial } from "./components/Testemonial/Testemonial";
+import { Testimonial } from "./components/Testimonial/Testimonial";
 import "./Style/appStyle.css";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <ProductOverview />
       <FeatureList />
       <Cta />
-      <Testemonial />
+      <Testimonial />
     </>
   );
 }
