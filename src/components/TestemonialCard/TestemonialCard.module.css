@@ -1,0 +1,35 @@
+.card {
+  padding: 1.5rem;
+  font-size: 0.65rem;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  background-color: var(--Navy800);
+  font-family: "Open Sans";
+  border: none;
+  border-radius: 4px;
+}
+.author {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: left;
+  align-items: center;
+}
+
+.avatar {
+  border: none;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.personName {
+  font-size: 0.65rem;
+  line-height: 150%;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.personTitle {
+  font-size: 0.43rem;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}

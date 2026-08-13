@@ -33,7 +33,7 @@ export function FeatureList() {
       <ul className={style["features-list"]}>
         {Features.map((item) => {
           return (
-            <li className={style.li}>
+            <li className={style.li} key={item.title}>
               <img src={item.img} />
               <h2>{item.title}</h2>
               <p>{item.des}</p>
