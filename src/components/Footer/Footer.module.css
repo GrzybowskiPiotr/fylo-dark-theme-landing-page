@@ -1,0 +1,9 @@
+.container {
+  background-color: var(--Navy950);
+  width: 100vw;
+  position: relative;
+  left: -2rem;
+  top: -22.3rem;
+  min-height: 60rem;
+  padding-top: 16.25rem;
+}
