@@ -16,7 +16,7 @@ function App() {
       <Cta />
       <Testimonial />
       <EarlyAccess />
-      <Footer/>
+      <Footer />
     </>
   );
 }
