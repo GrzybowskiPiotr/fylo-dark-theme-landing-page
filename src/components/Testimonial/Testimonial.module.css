@@ -1,11 +1,9 @@
 .testemonialWrapper {
   position: relative;
   width: 100vw;
-  left: -2rem;
-  padding: 3rem;
-  padding-top: 9.4rem;
+  left: -1.5rem;
+  padding: 9.4rem 3rem;
   background-color: var(--Navy900);
-  padding-bottom: 20.5rem;
 }
 .bgQuotesImg {
   width: 1.5rem;

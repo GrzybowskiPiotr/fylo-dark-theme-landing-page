@@ -16,32 +16,37 @@ export function EarlyAccess() {
   };
 
   return (
-    <section className={style.container}>
-      <h2>Get early access today</h2>
-      <p>
-        It only takes a minute to sign up and our free starter tier is extremely
-        generous. If you have any questions, our support team would be happy to
-        help you.
-      </p>
-      <form onSubmit={handleSubmit} className={style.form}>
-        <label htmlFor="email">
-          <input
-            type="text"
-            id="email"
-            name="email"
-            autoComplete="on"
-            placeholder="email@example.com"
-            onChange={(e) => onInputChange(e)}
-            className={style.pillShape}
-          />
-        </label>
-        <p className={`${style.errorMessage} ${error ? "" : style.hide}`}>
-          Error, please check your email
+    <div className={style.containerBackground}>
+      <section className={style.container}>
+        <h2>Get early access today</h2>
+        <p>
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
         </p>
-        <button type="submit" className={style.pillShape}>
-          get started for free
-        </button>
-      </form>
-    </section>
+        <form onSubmit={handleSubmit} className={style.form}>
+          <label htmlFor="email">
+            <input
+              type="text"
+              id="email"
+              name="email"
+              autoComplete="on"
+              placeholder="email@example.com"
+              onChange={(e) => onInputChange(e)}
+              className={style.pillShape}
+            />
+          </label>
+          <p className={`${style.errorMessage} ${error ? "" : style.hide}`}>
+            Error, please check your email
+          </p>
+          <button
+            type="submit"
+            className={`${style.pillShape} btn-link_gradient`}
+          >
+            get started for free
+          </button>
+        </form>
+      </section>
+    </div>
   );
 }

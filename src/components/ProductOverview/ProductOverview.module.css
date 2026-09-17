@@ -1,6 +1,7 @@
 .container {
   margin-top: 3rem;
   background-color: transparent;
+  position: relative;
 }
 .topCard {
   position: relative;
@@ -33,22 +34,22 @@
   text-transform: capitalize;
 }
 
-.topDecor {
+.backDecor {
   position: absolute;
-  top: 270px;
-  left: -0.025rem;
+  top: 35%;
   width: 100vw;
+  margin-left: -1.5rem;
   z-index: 5;
+  background: linear-gradient(
+    to bottom,
+    transparent 0 55%,
+    var(--Navy900) 55% 100%
+  );
 }
 
-.decorImg {
-  width: 100%;
-  height: 200px;
-}
 .topDecorBackground {
   position: absolute;
-  bottom: -7.7rem;
   width: 100%;
-  height: 12.3rem;
+  height: 100%;
   background-color: var(--Navy900);
 }

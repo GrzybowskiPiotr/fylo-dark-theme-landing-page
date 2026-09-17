@@ -53,7 +53,7 @@ export function Footer() {
           </li>
         </ul>
       </address>
-      <nav>
+      <nav className={style.navLinks}>
         <ul>
           <li>
             <a href="/">About Us</a>
@@ -80,7 +80,7 @@ export function Footer() {
           </li>
         </ul>
       </nav>
-      <div>
+      <div className={style.socialLinsk}>
         <ul>
           <li>
             <a href="/">
