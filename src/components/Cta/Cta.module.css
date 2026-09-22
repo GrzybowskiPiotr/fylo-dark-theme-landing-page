@@ -5,6 +5,7 @@
   background-color: var(--Navy900);
   padding: 0 2rem;
   padding-top: 10rem;
+  font-size: 16px;
 }
 .CtaContent {
   display: flex;
@@ -19,4 +20,12 @@
 }
 .CtaContent a img {
   display: inline;
+}
+@media (width>767px) {
+  .illustration {
+    width: 100%;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
 }
