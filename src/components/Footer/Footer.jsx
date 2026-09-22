@@ -24,7 +24,7 @@ export function Footer() {
           </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua a
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
         </div>
         <ul>
@@ -53,51 +53,51 @@ export function Footer() {
           </li>
         </ul>
       </address>
-      <nav className={style.navLinks}>
-        <ul>
-          <li>
-            <a href="/">About Us</a>
-          </li>
-          <li>
-            <a href="/">Jobs</a>
-          </li>
-          <li>
-            <a href="/">Press</a>
-          </li>
-          <li>
-            <a href="/">Blog</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="/">Contact Us</a>
-          </li>
-          <li>
-            <a href="/">Terms</a>
-          </li>
-          <li>
-            <a href="/">Privacy</a>
-          </li>
-        </ul>
-      </nav>
-      <div className={style.socialLinsk}>
-        <ul>
-          <li>
-            <a href="/">
-              <img src={facebookIcon} alt="Facebook profile" />
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <img src={twitterIcon} alt="Twiter profile" />
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <img src={instagramIcon} alt="Instagram Profile" />
-            </a>
-          </li>
-        </ul>
+      <div className={style.footerLinks}>
+        <nav className={style.navLinks}>
+          <ul>
+            <li>
+              <a href="/">About Us</a>
+            </li>
+            <li>
+              <a href="/">Jobs</a>
+            </li>
+            <li>
+              <a href="/">Press</a>
+            </li>
+            <li>
+              <a href="/">Blog</a>
+            </li>
+            <li>
+              <a href="/">Contact Us</a>
+            </li>
+            <li>
+              <a href="/">Terms</a>
+            </li>
+            <li>
+              <a href="/">Privacy</a>
+            </li>
+          </ul>
+        </nav>
+        <div className={style.socialLinsk}>
+          <ul>
+            <li>
+              <a href="/">
+                <img src={facebookIcon} alt="Facebook profile" />
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <img src={twitterIcon} alt="Twiter profile" />
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <img src={instagramIcon} alt="Instagram Profile" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   );

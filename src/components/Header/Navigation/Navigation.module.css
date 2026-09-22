@@ -5,3 +5,8 @@
   list-style: none;
   gap: 1rem;
 }
+@media (width>767px) {
+  .navList {
+    gap: 3rem;
+  }
+}

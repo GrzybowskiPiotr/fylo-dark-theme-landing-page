@@ -7,8 +7,8 @@
 }
 .features-list {
   padding: 0rem 2rem;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 5rem;
 }
 .li {
@@ -28,4 +28,9 @@
 }
 .li p {
   font-size: 0.875rem;
+}
+@media (width>767px) {
+  .features-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

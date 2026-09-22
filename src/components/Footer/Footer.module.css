@@ -1,12 +1,10 @@
 .container {
   font-family: "Open Sans";
+  font-size: 16px;
   background-color: var(--Navy950);
   width: 100vw;
   margin-left: -1.5rem;
-  padding-top: 5.2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 3rem;
+  padding: 5.2rem 2rem 3rem;
 }
 .logo {
   width: 108px;
@@ -57,4 +55,43 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.navLinks ul li:nth-child(4) {
+  margin-bottom: 2.5rem;
+}
+@media (width>767px) {
+  .container {
+    padding: 5.3rem 3.3rem 4rem 3.3rem;
+  }
+  .container address {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 6.1rem;
+    margin-bottom: 3.5rem;
+  }
+  .logo {
+    width: 108px;
+    margin-bottom: 3.5rem;
+  }
+  .footerLinks {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 6.1rem;
+  }
+  .navLinks {
+    margin: 0;
+    gap: 0;
+  }
+  .navLinks ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .navLinks ul li:nth-child(4) {
+    margin: 0;
+  }
+  .socialLinsk ul {
+    justify-content: flex-start;
+  }
 }

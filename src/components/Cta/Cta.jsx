@@ -4,7 +4,12 @@ import stayProdImg from "/images/illustration-stay-productive.png";
 export function Cta() {
   return (
     <section className={style.ctaWrapper}>
-      <img src={stayProdImg} alt="productive team illustration" />
+      <img
+        src={stayProdImg}
+        alt=""
+        aria-hidden="true"
+        className={style.illustration}
+      />
       <div className={style.CtaContent}>
         <h3>Stay productive, wherever you are</h3>
         <p>
