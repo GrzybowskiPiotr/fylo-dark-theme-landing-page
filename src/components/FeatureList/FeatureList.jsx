@@ -34,7 +34,7 @@ export function FeatureList() {
         {Features.map((item) => {
           return (
             <li className={style.li} key={item.title}>
-              <img src={item.img} />
+              <img src={item.img} alt="" aria-hidden="true" />
               <h2>{item.title}</h2>
               <p>{item.des}</p>
             </li>

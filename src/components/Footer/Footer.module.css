@@ -95,3 +95,22 @@
     justify-content: flex-start;
   }
 }
+@media (width>990px) {
+  .detailsContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 144px;
+  }
+  .navLinks ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 144px;
+  }
+  .socialLinsk ul li a img {
+    width: 2rem;
+  }
+  .footerLinks {
+    gap: 5rem;
+  }
+}

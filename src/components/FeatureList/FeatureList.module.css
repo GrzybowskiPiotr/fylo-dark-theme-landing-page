@@ -34,3 +34,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (width>990px) {
+  .featuresListContainer {
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .features-list {
+    max-width: 56.5rem;
+  }
+}
