@@ -33,3 +33,10 @@
   line-height: 150%;
   letter-spacing: 0.5px;
 }
+@media (width>990px) {
+  .card {
+    padding: 2rem 1.5rem;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+}

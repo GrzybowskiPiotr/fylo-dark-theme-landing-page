@@ -17,6 +17,12 @@
   flex-direction: column;
   align-items: center;
 }
+.textSectiondetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .container h1 {
   font-size: 1.2rem;
   text-align: center;
@@ -61,7 +67,7 @@
 .decorImg {
   display: none;
 }
-@media (width>767px) {
+@media (width>760px) {
   .container {
     padding: 0 3.375rem;
     width: 100vw;
@@ -95,5 +101,31 @@
   }
   .mobileImageDecor {
     display: none;
+  }
+}
+@media (width>990px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8.75rem;
+  }
+  .sectionWrapper {
+    max-width: 48rem;
+  }
+  .textSectiondetails {
+    max-width: 37rem;
+  }
+  h1 {
+    text-wrap: unset;
+  }
+  .container .decorImg {
+    bottom: -2rem;
+    left: 0;
+    margin-bottom: 0;
+    max-width: none;
+    max-height: none;
+    width: auto;
+    height: auto;
   }
 }

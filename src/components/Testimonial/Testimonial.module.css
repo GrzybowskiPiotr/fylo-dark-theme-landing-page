@@ -4,6 +4,9 @@
   left: -1.5rem;
   padding: 9.4rem 3rem;
   background-color: var(--Navy900);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .bgQuotesImg {
   width: 1.5rem;
@@ -27,5 +30,31 @@
   .cardList {
     width: 30rem;
     padding-left: 1.5rem;
+  }
+}
+@media (width>1200px) {
+  .testemonialWrapper {
+    padding: 0;
+    padding-bottom: 13.7rem;
+  }
+  .cardList {
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+  .cardList {
+    position: relative;
+    width: auto;
+    padding: 0;
+    z-index: 10;
+  }
+  .cardList li {
+    width: 360px;
+    height: 200px;
+  }
+  .bgQuotesImg {
+    position: relative;
+    left: -1.5rem;
+    bottom: -0.5rem;
+    z-index: 1;
   }
 }

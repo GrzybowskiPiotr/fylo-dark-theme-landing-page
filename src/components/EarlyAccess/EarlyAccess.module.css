@@ -39,6 +39,9 @@
   border-radius: 1.5rem;
 }
 .containerBackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: -1.5rem;
   width: 100vw;
   background: linear-gradient(
@@ -50,7 +53,25 @@
 @media (width>767px) {
   .container {
     width: 28.5rem;
-    margin-left: 8.37rem;
     padding: 3rem;
+  }
+}
+@media (width>990px) {
+  .container {
+    width: 54rem;
+    height: 17rem;
+    margin: 0;
+    padding: 3rem 5rem;
+  }
+  .container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+  .container p {
+    padding: 0 1rem;
+  }
+  .form {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
   }
 }

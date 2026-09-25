@@ -32,25 +32,27 @@ const Cards = [
 export function Testimonial() {
   return (
     <div className={style.testemonialWrapper}>
-      <img
-        src={bgQuteImg}
-        alt=""
-        aria-hidden="true"
-        className={style.bgQuotesImg}
-      />
-      <ul className={style.cardList}>
-        {Cards.map((card) => (
-          <li key={card.personName}>
-            <TestimonialCard
-              personTitle={card.personTitle}
-              personName={card.personName}
-              text={card.text}
-              img={card.img}
-              imgAlt={card.imgAlt}
-            />
-          </li>
-        ))}
-      </ul>
+      <div>
+        <img
+          src={bgQuteImg}
+          alt=""
+          aria-hidden="true"
+          className={style.bgQuotesImg}
+        />
+        <ul className={style.cardList}>
+          {Cards.map((card) => (
+            <li key={card.personName}>
+              <TestimonialCard
+                personTitle={card.personTitle}
+                personName={card.personName}
+                text={card.text}
+                img={card.img}
+                imgAlt={card.imgAlt}
+              />
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

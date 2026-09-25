@@ -6,3 +6,8 @@
     width: 8.6rem;
   }
 }
+@media (width >990px) {
+  .logo {
+    width: 11rem;
+  }
+}
