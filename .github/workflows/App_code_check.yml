@@ -28,3 +28,20 @@ jobs:
         with:
           name: build
           path: dist
+  Deploy:
+    needs: App_build
+    runs-on: ubuntu-lates
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v6
+        with:
+          name: build
+          path: dist
+      - name: Publish
+        uses: South-Paw/action-netlify-cli@v2
+        id: netlify
+        with:
+          args: deploy --prod --dir './dist'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
