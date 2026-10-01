@@ -1,7 +1,7 @@
 import { useState } from "react";
 import style from "./EarlyAccess.module.css";
 
-const emailRegExp = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+const emailRegExp = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/g;
 
 export function EarlyAccess() {
   const [error, setError] = useState(false);
