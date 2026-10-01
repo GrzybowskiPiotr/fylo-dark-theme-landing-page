@@ -1,22 +1,29 @@
 import { useState } from "react";
 import style from "./EarlyAccess.module.css";
 
+const emailRegExp = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
+
 export function EarlyAccess() {
   const [error, setError] = useState(false);
+  const [input, setInput] = useState("");
 
   const handleSubmit = function (e) {
     e.preventDefault();
-    setError("true");
-    console.log("submit click");
+    if(emailRegExp.test(input)){
+      window.location.reload();
+    }
+    else{
+      setError(true)
+    }
   };
 
   const onInputChange = function (e) {
     setError(false);
-    console.log(e.target.value);
+    setInput(e.target.value);
   };
 
   return (
-    <div className={style.containerBackground}>
+    <div className={style.containerBackground} id="signin">
       <section className={style.container}>
         <h2>Get early access today</h2>
         <p>

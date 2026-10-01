@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Cta } from "./components/Cta/Cta";
 import { EarlyAccess } from "./components/EarlyAccess/EarlyAccess";
 import { FeatureList } from "./components/FeatureList/FeatureList";
@@ -8,6 +9,14 @@ import { Testimonial } from "./components/Testimonial/Testimonial";
 import "./Style/appStyle.css";
 
 function App() {
+  useEffect(()=>{
+    history.scrollRestoration = "manual";
+    window.scrollTo({
+      top:0,
+      behavior: "instant"
+    })
+  },[])
+
   return (
     <>
       <Header />

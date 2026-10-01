@@ -73,5 +73,16 @@
   .form {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    position: relative;
+  }
+  .form input {
+    text-align: left;
+    padding-left: 1.5rem;
+  }
+
+  .errorMessage {
+    position: absolute;
+    bottom: -1.7rem;
+    left: 0.5rem;
   }
 }

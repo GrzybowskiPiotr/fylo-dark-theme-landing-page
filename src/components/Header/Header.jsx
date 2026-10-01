@@ -5,7 +5,7 @@ import { Navigation } from "./Navigation/Navigation";
 
 export function Header() {
   return (
-    <header className={style.menuContainer}>
+    <header className={style.menuContainer} id="header">
       <Logo />
       <Navigation />
     </header>

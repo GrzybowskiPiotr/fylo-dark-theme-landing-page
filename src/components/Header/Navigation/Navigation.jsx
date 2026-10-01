@@ -1,6 +1,6 @@
 import style from "./Navigation.module.css";
 const items = [
-  { name: "Features", url: "#features" },
+  { name: "Features", url:"#features" },
   { name: "Team", url: "#team" },
   { name: "Sign In", url: "#signin" },
 ];

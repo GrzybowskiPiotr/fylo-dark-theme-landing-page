@@ -15,7 +15,7 @@ export function ProductOverview() {
                 location. Access them wherever you need, share and collaborate
                 with friends family, and co-workers.
               </p>
-              <a className={`${style["btn-link"]} .btn-link_gradient`}>
+              <a className={`${style["btn-link"]} .btn-link_gradient`} href="#signin">
                 get started
               </a>
             </div>
