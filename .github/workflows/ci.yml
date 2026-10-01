@@ -6,7 +6,7 @@ on:
       - main
   pull_request:
 jobs:
-  App_code_check_and_build:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -30,8 +30,8 @@ jobs:
         with:
           name: build
           path: dist
-  App_Deploy_on_Netlify:
-    needs: App_code_check_and_build
+  deploy:
+    needs: check
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
