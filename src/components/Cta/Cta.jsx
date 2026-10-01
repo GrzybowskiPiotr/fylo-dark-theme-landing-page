@@ -21,8 +21,8 @@ export function Cta() {
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required.
           </p>
-          <a>
-            See how Fylo works <img src={ArroIco} />
+          <a href="#signin" rel="noopener noreferrer">
+            See how Fylo works <img src={ArroIco}/>
           </a>
         </div>
       </section>

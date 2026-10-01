@@ -31,7 +31,7 @@ const Cards = [
 
 export function Testimonial() {
   return (
-    <div className={style.testemonialWrapper}>
+    <div className={style.testemonialWrapper} id="team">
       <div>
         <img
           src={bgQuteImg}
