@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   padding-top: 1.5rem;
+  scroll-margin-top: 5rem;
 }
+
 @media (width>760px) {
   .menuContainer {
     margin-top: 5rem;

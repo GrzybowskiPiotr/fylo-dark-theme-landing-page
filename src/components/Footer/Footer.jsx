@@ -9,7 +9,7 @@ import twitterIcon from "/images/twitter.png";
 export function Footer() {
   return (
     <footer className={style.container}>
-      <a href="/">
+      <a href="#header">
         <img src={logo} alt="" aria-hidden="true" className={style.logo} />
       </a>
       <div className={style.detailsContainer}>

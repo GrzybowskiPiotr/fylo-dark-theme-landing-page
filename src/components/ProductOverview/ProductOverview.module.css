@@ -125,7 +125,7 @@
     margin-bottom: 0;
     max-width: none;
     max-height: none;
-    width: auto;
+    width: 100vw;
     height: auto;
   }
 }
