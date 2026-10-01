@@ -17,7 +17,9 @@
 
   --White: hsl(0, 0%, 100%);
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   padding: 0 1.5rem;
   background-color: var(--Navy850);

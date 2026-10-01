@@ -29,7 +29,7 @@ const Features = [
 
 export function FeatureList() {
   return (
-    <div className={style.featuresListContainer}>
+    <div className={style.featuresListContainer} id="features">
       <ul className={style["features-list"]}>
         {Features.map((item) => {
           return (
