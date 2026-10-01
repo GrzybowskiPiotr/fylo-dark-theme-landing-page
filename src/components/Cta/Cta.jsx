@@ -22,7 +22,7 @@ export function Cta() {
             for live collaboration. No email attachments required.
           </p>
           <a href="#signin" rel="noopener noreferrer">
-            See how Fylo works <img src={ArroIco}/>
+            See how Fylo works <img src={ArroIco} />
           </a>
         </div>
       </section>

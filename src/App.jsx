@@ -9,13 +9,13 @@ import { Testimonial } from "./components/Testimonial/Testimonial";
 import "./Style/appStyle.css";
 
 function App() {
-  useEffect(()=>{
+  useEffect(() => {
     history.scrollRestoration = "manual";
     window.scrollTo({
-      top:0,
-      behavior: "instant"
-    })
-  },[])
+      top: 0,
+      behavior: "instant",
+    });
+  }, []);
 
   return (
     <>
