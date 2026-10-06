@@ -10,7 +10,7 @@ export function Footer() {
   return (
     <footer className={style.container}>
       <a href="#header">
-        <img src={logo} alt="" aria-hidden="true" className={style.logo} />
+        <img src={logo} alt="Fylo" className={style.logo} />
       </a>
       <div className={style.detailsContainer}>
         <address>
