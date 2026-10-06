@@ -80,25 +80,38 @@ export function Footer() {
               </li>
             </ul>
           </nav>
-          <div className={style.socialLinsk}>
+          <nav className={style.socialLinsk} aria-label="Social links">
             <ul>
               <li>
-                <a href="/">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook profile"
+                >
                   <img src={facebookIcon} alt="Facebook profile" />
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a
+                  href="https://www.x.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={twitterIcon} alt="Twiter profile" />
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={instagramIcon} alt="Instagram Profile" />
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </div>
     </footer>
