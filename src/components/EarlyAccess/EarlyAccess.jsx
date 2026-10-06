@@ -40,11 +40,13 @@ export function EarlyAccess() {
               placeholder="email@example.com"
               onChange={(e) => onInputChange(e)}
               className={style.pillShape}
+              aria-label="email"
             />
           </label>
-          <p className={`${style.errorMessage} ${error ? "" : style.hide}`}>
-            Error, please check your email
-          </p>
+
+          {error && (
+            <p className={style.errorMessage}>Error, please check your email</p>
+          )}
           <button
             type="submit"
             className={`${style.pillShape} btn-link_gradient`}
