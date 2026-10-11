@@ -48,3 +48,21 @@ test("clear error message after user start typing email", async () => {
     screen.queryByText("Error, please check your email"),
   ).not.toBeInTheDocument();
 });
+test("does not show error after valid email was submitted", async()=> {
+  render(<EarlyAccess/>)
+
+  const user = userEvent.setup();
+  const submitButton = screen.getByRole("button", {
+    name: "get started for free",
+  });
+  const input = screen.getByLabelText("email");
+
+
+
+  await user.type(input, "example@hotmail.com");
+  await user.click(submitButton);
+
+ const errorMessage = screen.queryByText("Error, please check your email");
+ expect(errorMessage).not.toBeInTheDocument();
+
+})
