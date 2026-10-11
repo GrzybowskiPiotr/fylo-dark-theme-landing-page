@@ -1,12 +1,6 @@
-import style from "./TestimonialCard.module.css";
+import style from "./TeamMemberCard.module.css";
 
-export function TestimonialCard({
-  text,
-  img,
-  imgAlt,
-  personName,
-  personTitle,
-}) {
+export function TeamMemberCard({ text, img, imgAlt, personName, personTitle }) {
   return (
     <article className={style.card}>
       <p>{text}</p>
