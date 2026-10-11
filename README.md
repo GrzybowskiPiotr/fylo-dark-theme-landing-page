@@ -1,7 +1,6 @@
 # Fylo Dark Theme Landing Page
 
 A responsive landing page built as a solution to the [Fylo Dark Theme Landing Page challenge](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd) on Frontend Mentor.
-
 The project focuses on responsive layout, reusable React components, form validation, accessibility, and automated testing.
 
 ## Table of Contents
