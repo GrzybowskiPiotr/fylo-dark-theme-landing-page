@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <main>
       <Header />
       <ProductOverview />
       <FeatureList />
@@ -26,7 +26,7 @@ function App() {
       <Team />
       <EarlyAccess />
       <Footer />
-    </>
+    </main>
   );
 }
 

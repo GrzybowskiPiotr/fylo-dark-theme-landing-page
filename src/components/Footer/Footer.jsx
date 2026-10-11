@@ -98,7 +98,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={twitterIcon} alt="Twiter profile" />
+                  <img src={twitterIcon} alt="Twitter profile" />
                 </a>
               </li>
               <li>
