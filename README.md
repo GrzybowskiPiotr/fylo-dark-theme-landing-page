@@ -34,14 +34,13 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- Add a screenshot of the completed project -->
-
-![Fylo Dark Theme Landing Page](./screenshot.jpg)
+![Fylo Dark Theme Landing Page - Mobie View](./screenshots/mobile.png)
+![Fylo Dark Theme Landing Page - Tablet View](./screenshots/tablet.png)
+![Fylo Dark Theme Landing Page - Desktop View](./screenshots/desktop.png)
 
 ### Links
 
-- **Live Site:** [View the deployed project](ADD_NETLIFY_URL)
-- **Frontend Mentor Solution:** [View my solution](ADD_FRONTEND_MENTOR_URL)
+- **Live Site:** [View the deployed project](https://pgfylo-dark-theme-landing-page.netlify.app)
 
 ## My Process
 
@@ -150,5 +149,5 @@ The project served as a practical learning exercise, with implementation decisio
 
 ## Author
 
-- **GitHub:** [Your GitHub profile](ADD_GITHUB_PROFILE_URL)
+- **GitHub:** [GrzybowskiPiotr GitHub profile](https://github.com/GrzybowskiPiotr/)
 - **Frontend Mentor:** [Your Frontend Mentor profile](ADD_FRONTEND_MENTOR_PROFILE_URL)
