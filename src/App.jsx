@@ -19,15 +19,15 @@ function App() {
 
   return (
     <>
-    <Header />
-    <main>
-      <ProductOverview />
-      <FeatureList />
-      <Cta />
-      <Team />
-      <EarlyAccess />
-    </main>
-    <Footer />
+      <Header />
+      <main>
+        <ProductOverview />
+        <FeatureList />
+        <Cta />
+        <Team />
+        <EarlyAccess />
+      </main>
+      <Footer />
     </>
   );
 }
