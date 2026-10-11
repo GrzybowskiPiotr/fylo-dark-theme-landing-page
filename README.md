@@ -34,8 +34,16 @@ Users should be able to:
 
 ### Screenshot
 
+#### Fylo Dark Theme Landing Page - Mobie View
+
 ![Fylo Dark Theme Landing Page - Mobie View](./screenshots/mobile.png)
+
+#### Fylo Dark Theme Landing Page - Tablet View
+
 ![Fylo Dark Theme Landing Page - Tablet View](./screenshots/tablet.png)
+
+#### Fylo Dark Theme Landing Page - Desktop View
+
 ![Fylo Dark Theme Landing Page - Desktop View](./screenshots/desktop.png)
 
 ### Links
