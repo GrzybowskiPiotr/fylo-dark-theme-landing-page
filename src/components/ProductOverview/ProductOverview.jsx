@@ -16,7 +16,7 @@ export function ProductOverview() {
                 with friends family, and co-workers.
               </p>
               <a
-                className={`${style["btn-link"]} .btn-link_gradient`}
+                className={`${style["btn-link"]} btn-link_gradient`}
                 href="#signin"
               >
                 get started
@@ -25,10 +25,15 @@ export function ProductOverview() {
           </div>
         </div>
         <div className={style.backDecor}>
-          <img src={decor} className={style.mobileImageDecor} />
+          <img
+            src={decor}
+            className={style.mobileImageDecor}
+            alt=""
+            aria-hidden="true"
+          />
           <div aria-hidden="true" className={style.topDecorBackground}></div>
         </div>
-        <img src={decor} className={style.decorImg} />
+        <img src={decor} className={style.decorImg} alt="" aria-hidden="true" />
       </div>
     </section>
   );

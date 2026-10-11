@@ -1,7 +1,7 @@
 import { useState } from "react";
 import style from "./EarlyAccess.module.css";
 
-const emailRegExp = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+const emailRegExp = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
 export function EarlyAccess() {
   const [error, setError] = useState(false);
@@ -41,11 +41,14 @@ export function EarlyAccess() {
               onChange={(e) => onInputChange(e)}
               className={style.pillShape}
               aria-label="email"
+              aria-describedby={error ? "email-error" : undefined}
             />
           </label>
 
           {error && (
-            <p className={style.errorMessage}>Error, please check your email</p>
+            <p className={style.errorMessage} id="email-error" role="alert">
+              Error, please check your email
+            </p>
           )}
           <button
             type="submit"
