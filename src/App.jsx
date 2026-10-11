@@ -6,7 +6,7 @@ import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { ProductOverview } from "./components/ProductOverview/ProductOverview";
 import { Team } from "./components/Team/Team";
-import "./style/appStyle.css";
+import "./style/app.css";
 
 function App() {
   useEffect(() => {
@@ -18,15 +18,17 @@ function App() {
   }, []);
 
   return (
+    <>
+    <Header />
     <main>
-      <Header />
       <ProductOverview />
       <FeatureList />
       <Cta />
       <Team />
       <EarlyAccess />
-      <Footer />
     </main>
+    <Footer />
+    </>
   );
 }
 
