@@ -1,7 +1,7 @@
 import { defineConfig } from "@playwright/test";
 
 export default defineConfig({
-  testDir: "./scripts",
+  testDir: "./e2e",
 
   use: {
     browserName: "chromium",
