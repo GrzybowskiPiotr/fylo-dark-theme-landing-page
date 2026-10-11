@@ -20,7 +20,9 @@ npm-debug.log*
 
 # Testing
 /coverage
-
+/test-results
+#LocalScreenShots
+/screenshots
 # Production
 /build
 /dist
