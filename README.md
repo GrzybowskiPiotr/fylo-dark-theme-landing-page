@@ -158,4 +158,4 @@ The project served as a practical learning exercise, with implementation decisio
 ## Author
 
 - **GitHub:** [GrzybowskiPiotr GitHub profile](https://github.com/GrzybowskiPiotr/)
-- **Frontend Mentor:** [Your Frontend Mentor profile](ADD_FRONTEND_MENTOR_PROFILE_URL)
+- **Frontend Mentor:** [GrzybowskiPiotr Frontend Mentor profile](https://www.frontendmentor.io/profile/GrzybowskiPiotr)
