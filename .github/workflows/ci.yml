@@ -26,7 +26,19 @@ jobs:
       - run: pnpm format:check
       - run: pnpm test
       - run: pnpm build
-
+      - name: Install Playwright Chromium
+        run: pnpm exec playwright install --with-deps chromium
+      - name: Prepare screenshots directory
+        run: mkdir -p screenshots
+      - name: Generate screenshots
+        run: pnpm screenshots
+      - name: Upload screenshots artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: fylo-screenshots
+          path: screenshots/
+          if-no-files-found: error
+          retention-days: 14
       - name: Upload build artifact
         uses: actions/upload-artifact@v6
         with:
