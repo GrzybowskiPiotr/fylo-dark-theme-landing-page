@@ -5,7 +5,7 @@ export function Logo() {
     <>
       <a href="/" aria-label="home link">
         <img
-          alt="Fylo logo"
+          alt=""
           src={LogoIco}
           className={style.logo}
           aria-hidden="true"

@@ -1,6 +1,6 @@
-import style from "./Testimonial.module.css";
+import style from "./Team.module.css";
 
-import { TestimonialCard } from "../TestimonialCard/TestimonialCard";
+import { TeamMemberCard } from "../TeamMemberCard/TeamMemberCard";
 import bgQuteImg from "/images/bg-quotes.png";
 import img1 from "/images/profile-1.jpg";
 import img2 from "/images/profile-2.jpg";
@@ -29,7 +29,7 @@ const Cards = [
   },
 ];
 
-export function Testimonial() {
+export function Team() {
   return (
     <div className={style.testemonialWrapper} id="team">
       <div>
@@ -42,7 +42,7 @@ export function Testimonial() {
         <ul className={style.cardList}>
           {Cards.map((card) => (
             <li key={card.personName}>
-              <TestimonialCard
+              <TeamMemberCard
                 personTitle={card.personTitle}
                 personName={card.personName}
                 text={card.text}
