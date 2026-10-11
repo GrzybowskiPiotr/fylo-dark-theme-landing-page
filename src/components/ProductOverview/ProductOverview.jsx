@@ -16,7 +16,7 @@ export function ProductOverview() {
                 with friends family, and co-workers.
               </p>
               <a
-                className={`${style["btn-link"]} .btn-link_gradient`}
+                className={`${style["btn-link"]} btn-link_gradient`}
                 href="#signin"
               >
                 get started

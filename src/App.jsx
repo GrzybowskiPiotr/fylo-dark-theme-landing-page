@@ -6,7 +6,7 @@ import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { ProductOverview } from "./components/ProductOverview/ProductOverview";
 import { Team } from "./components/Team/Team";
-import "./Style/appStyle.css";
+import "./style/appStyle.css";
 
 function App() {
   useEffect(() => {
